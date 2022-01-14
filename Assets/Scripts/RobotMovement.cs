@@ -11,6 +11,7 @@ public class RobotMovement : MonoBehaviour
     private Joystick joyStick;
     private Rigidbody robotBody;
 
+    private float health = 100;
 
     void Start()
     {
@@ -21,6 +22,7 @@ public class RobotMovement : MonoBehaviour
         robotAnim.SetBool("Open_Anim", true);
     }
 
+   
 
     void Update()
     {
